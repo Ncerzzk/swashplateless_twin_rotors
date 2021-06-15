@@ -1,0 +1,27 @@
+Added Component: Designator=D7(LED_0805_YELLOW)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D8(LED_0805_YELLOW)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R17(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R18(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=D7-1
+Added Pin To Net: NetName=3V3 Pin=D8-1
+Added Pin To Net: NetName=LED_ERROR Pin=R18-2
+Added Net: Name=LED_ERROR
+Added Pin To Net: NetName=LED_OK Pin=R17-2
+Added Pin To Net: NetName=LED_OK Pin=STM1-16
+Added Net: Name=LED_OK
+Added Pin To Net: NetName=NetD7_2 Pin=D7-2
+Added Pin To Net: NetName=NetD7_2 Pin=R17-1
+Added Net: Name=NetD7_2
+Added Pin To Net: NetName=NetD8_2 Pin=D8-2
+Added Pin To Net: NetName=NetD8_2 Pin=R18-1
+Added Net: Name=NetD8_2
+Added Member To Class: ClassName=·É¿Ø Member=Component D7 D_0805
+Added Member To Class: ClassName=·É¿Ø Member=Component D8 D_0805
+Added Member To Class: ClassName=·É¿Ø Member=Component R17 Res_0603
+Added Member To Class: ClassName=·É¿Ø Member=Component R18 Res_0603

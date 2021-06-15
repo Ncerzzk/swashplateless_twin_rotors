@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "functional": "c",
+        "random": "c",
+        "control.h": "c",
+        "imu_update.h": "c",
+        "string_view": "c",
+        "stdbool.h": "c"
+    }
+}

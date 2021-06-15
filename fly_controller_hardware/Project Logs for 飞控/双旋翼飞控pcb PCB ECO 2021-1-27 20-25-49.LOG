@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=SDIO_CD Pin=STM1-38
+Added Pin To Net: NetName=SDIO_D0 Pin=STM1-39
+Added Pin To Net: NetName=SDIO_D1 Pin=STM1-40
+Added Pin To Net: NetName=SDIO_D2 Pin=STM1-51
+Added Pin To Net: NetName=SDIO_D3 Pin=STM1-52
+Added Pin To Net: NetName=SDIO_CLK Pin=STM1-53
+Added Pin To Net: NetName=SDIO_CMD Pin=STM1-54
+Added Member To Class: ClassName=power Member=Component D4 Diode
+Added Member To Class: ClassName=power Member=Component P6 Connector

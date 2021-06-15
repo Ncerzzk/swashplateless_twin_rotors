@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=3V3 Pin=D7-1
+Removed Pin From Net: NetName=3V3 Pin=D8-1
+Removed Pin From Net: NetName=LED_OK Pin=R17-2
+Removed Pin From Net: NetName=LED_ERROR Pin=R18-2
+Added Pin To Net: NetName=LED_OK Pin=D7-1
+Added Pin To Net: NetName=LED_ERROR Pin=D8-1
+Added Pin To Net: NetName=GND Pin=R17-2
+Added Pin To Net: NetName=GND Pin=R18-2

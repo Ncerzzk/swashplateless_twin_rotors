@@ -1,0 +1,140 @@
+Removed Pin From Net: NetName=VBAT Pin=C23-1
+Removed Pin From Net: NetName=VBAT Pin=C24-1
+Removed Pin From Net: NetName=5V Pin=D4-2
+Removed Pin From Net: NetName=5V Pin=D5-2
+Removed Pin From Net: NetName=PGND Pin=MOS1-3
+Removed Pin From Net: NetName=NetMOS1_1 Pin=MOS2-1
+Removed Pin From Net: NetName=PGND Pin=MOS2-3
+Removed Pin From Net: NetName=NetMOS1_1 Pin=Mos3-D
+Removed Pin From Net: NetName=PGND Pin=Mos3-S
+Removed Pin From Net: NetName=PGND Pin=P6-2
+Removed Pin From Net: NetName=5V Pin=R8-2
+Removed Pin From Net: NetName=PGND Pin=R10-1
+Removed Pin From Net: NetName=PGND Pin=R16-1
+Removed Pin From Net: NetName=PGND Pin=R17-2
+Removed Pin From Net: NetName=NRF_IRQ Pin=STM1-51
+Removed Pin From Net: NetName=NRF_MISO Pin=STM1-52
+Removed Pin From Net: NetName=NRF_MOSI Pin=STM1-53
+Removed Pin From Net: NetName=NRF_SCK Pin=STM1-55
+Removed Pin From Net: NetName=ENA Pin=SW-2
+Removed Member From Class: ClassName=power Member=C24
+Removed Member From Class: ClassName=power Member=MOS2
+Removed Member From Class: ClassName=power Member=Mos3
+Removed Member From Class: ClassName=power Member=R17
+Removed Member From Class: ClassName=power Member=SW
+Change Component Footprint: Designator=P2 Old Footprint=1.25mm_1X6_SMT New Footprint=HDR1X5_2.54_180
+Change Component Footprint: Designator=P1 Old Footprint=1.25mm_1X6_SMT New Footprint=XH2.54_SMT_2PIN
+Change Component Footprint: Designator=C23 Old Footprint=C_ELE New Footprint=CAP_0603
+Change Component Comment : Designator=C23 Old Comment=*¦ÌF New Comment=Cap_0603
+Change Component Comment : Designator=P1 Old Comment=HDR1x6_2.54 New Comment=HDR1x2_2.54
+Change Component Comment : Designator=P2 Old Comment=HDR1x6_2.54 New Comment=HDR1x5_2.54
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7K"; VariantName = "[No Variations]"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7K"; VariantName = "[No Variations]"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "120R"; VariantName = "[No Variations]"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "10R"; VariantName = "[No Variations]"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1u"; VariantName = "[No Variations]"
+Added Component: Designator=D6(LED_0805_RED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P7(XH2.54_SMT_2PIN)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P8(HDR1X2_2.54_180)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S2(SwitchSPDT_2.8X6.6_90)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SD1(SD_Card_TF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U2(SOP_E150_8)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=5V Pin=C23-1
+Added Pin To Net: NetName=GND Pin=C23-2
+Added Pin To Net: NetName=PGND Pin=MOS1-4
+Added Pin To Net: NetName=VBAT Pin=P2-1
+Added Pin To Net: NetName=PGND Pin=P3-2
+Added Pin To Net: NetName=PGND Pin=P4-2
+Added Pin To Net: NetName=ENA Pin=R1-1
+Added Pin To Net: NetName=ENA Pin=R2-1
+Added Pin To Net: NetName=PGND Pin=R14-2
+Added Pin To Net: NetName=VBAT Pin=S2-3
+Added Pin To Net: NetName=3V3 Pin=SD1-4
+Added Pin To Net: NetName=GND Pin=SD1-6
+Added Pin To Net: NetName=NRF_SCK Pin=STM1-20
+Added Pin To Net: NetName=NRF_MISO Pin=STM1-22
+Added Pin To Net: NetName=NRF_MOSI Pin=STM1-23
+Added Pin To Net: NetName=NRF_IRQ Pin=STM1-55
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=5V Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-8
+Added Pin To Net: NetName=10V Pin=D4-2
+Added Pin To Net: NetName=10V Pin=D6-1
+Added Pin To Net: NetName=10V Pin=P2-4
+Added Net: Name=10V
+Added Pin To Net: NetName=BGND Pin=MOS1-3
+Added Pin To Net: NetName=BGND Pin=P2-5
+Added Pin To Net: NetName=BGND Pin=P6-2
+Added Pin To Net: NetName=BGND Pin=R8-2
+Added Pin To Net: NetName=BGND Pin=R9-1
+Added Net: Name=BGND
+Added Pin To Net: NetName=CAN_RX Pin=STM1-44
+Added Pin To Net: NetName=CAN_RX Pin=U2-4
+Added Net: Name=CAN_RX
+Added Pin To Net: NetName=CAN_TX Pin=STM1-45
+Added Pin To Net: NetName=CAN_TX Pin=U2-1
+Added Net: Name=CAN_TX
+Added Pin To Net: NetName=CANH Pin=P1-1
+Added Pin To Net: NetName=CANH Pin=P7-1
+Added Pin To Net: NetName=CANH Pin=R10-2
+Added Pin To Net: NetName=CANH Pin=U2-7
+Added Net: Name=CANH
+Added Pin To Net: NetName=CANL Pin=P1-2
+Added Pin To Net: NetName=CANL Pin=P7-2
+Added Pin To Net: NetName=CANL Pin=P8-1
+Added Pin To Net: NetName=CANL Pin=U2-6
+Added Net: Name=CANL
+Added Pin To Net: NetName=NetD4_1 Pin=D4-1
+Added Pin To Net: NetName=NetD4_1 Pin=D5-2
+Added Net: Name=NetD4_1
+Added Pin To Net: NetName=NetD5_1 Pin=D5-1
+Added Pin To Net: NetName=NetD5_1 Pin=S2-2
+Added Net: Name=NetD5_1
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetD6_2 Pin=R9-2
+Added Net: Name=NetD6_2
+Added Pin To Net: NetName=NetP2_2 Pin=P2-2
+Added Pin To Net: NetName=NetP2_2 Pin=R16-1
+Added Net: Name=NetP2_2
+Added Pin To Net: NetName=NetP8_2 Pin=P8-2
+Added Pin To Net: NetName=NetP8_2 Pin=R10-1
+Added Net: Name=NetP8_2
+Added Pin To Net: NetName=SDIO_CD Pin=SD1-9
+Added Net: Name=SDIO_CD
+Added Pin To Net: NetName=SDIO_CLK Pin=SD1-5
+Added Net: Name=SDIO_CLK
+Added Pin To Net: NetName=SDIO_CMD Pin=SD1-3
+Added Net: Name=SDIO_CMD
+Added Pin To Net: NetName=SDIO_D0 Pin=SD1-7
+Added Net: Name=SDIO_D0
+Added Pin To Net: NetName=SDIO_D1 Pin=SD1-8
+Added Net: Name=SDIO_D1
+Added Pin To Net: NetName=SDIO_D2 Pin=SD1-1
+Added Net: Name=SDIO_D2
+Added Pin To Net: NetName=SDIO_D3 Pin=SD1-2
+Added Net: Name=SDIO_D3
+Added Pin To Net: NetName=USART3_RX Pin=STM1-30
+Added Net: Name=USART3_RX
+Added Pin To Net: NetName=USART3_TX Pin=STM1-29
+Added Net: Name=USART3_TX
+Added Member To Class: ClassName=power Member=Component D4 Diode
+Added Member To Class: ClassName=power Member=Component D5 Diode
+Added Member To Class: ClassName=power Member=Component D6 LED_0805
+Added Member To Class: ClassName=power Member=Component P1 HDR1x2_2.54
+Added Member To Class: ClassName=power Member=Component P2 HDR1x5_2.54
+Added Member To Class: ClassName=power Member=Component P7 HDR1x2_2.54
+Added Member To Class: ClassName=power Member=Component P8 HDR1x2_2.54
+Added Member To Class: ClassName=power Member=Component S2 SwitchSPDT_2.8x6.6_90
+Added Member To Class: ClassName=·É¿Ø Member=Component SD1 SD_Card_TF
+Added Member To Class: ClassName=power Member=Component U2 TJA1050

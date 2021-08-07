@@ -447,7 +447,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
             case NORMAL:
             case PITCH_COS:
             //Set_VESC_Duty_Amp_Phi(&Left_Motor,Left_Motor.baseduty/6.0f,Left_Motor.dutyamp/6.0f,Left_Motor.phi);
-            Set_VESC_Duty_Amp_Phi(&Left_Motor,Left_Motor.baseduty/6.0f,0,0);
+            Set_VESC_Duty_Amp_Phi(&Left_Motor,Left_Motor.baseduty/6.0f,Left_Motor.dutyamp/6.0f,Left_Motor.phi);
             Set_VESC_Duty_Amp_Phi(&Right_Motor,Right_Motor.baseduty/6.0f,Right_Motor.dutyamp/6.0f,Right_Motor.phi); 
             break;
             case TEST:

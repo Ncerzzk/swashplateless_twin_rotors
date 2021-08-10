@@ -1,0 +1,6 @@
+[submodule "BrushlessFoc_Hardware"]
+	path = BrushlessFoc_Hardware
+	url = https://github.com/Ncerzzk/BrushlessFoc_Hardware
+[submodule "bldc"]
+	path = bldc
+	url = https://github.com/Ncerzzk/bldc.git
